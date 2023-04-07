@@ -32,3 +32,21 @@ def get_birthdays_per_week(users: list):
                 print(f"{y}: {', '.join(sorted(bd_list[y]))}")
     else:
         print("No birthdays this week")
+
+
+test_users = [
+    {'name':'April4', 'birthday':datetime(year=1999, month=4, day=4)},
+    {'name':'April5', 'birthday':datetime(year=1999, month=4, day=5)},
+    {'name':'April6', 'birthday':datetime(year=1999, month=4, day=6)},
+    {'name':'April7', 'birthday':datetime(year=1999, month=4, day=7)},
+    {'name':'April8', 'birthday':datetime(year=1999, month=4, day=8)},
+    {'name':'April9', 'birthday':datetime(year=1999, month=4, day=9)},
+    {'name':'April10', 'birthday':datetime(year=1999, month=4, day=10)},
+    {'name':'April11', 'birthday':datetime(year=1999, month=4, day=11)},
+    {'name':'April12', 'birthday':datetime(year=1999, month=4, day=12)},
+    {'name':'April13', 'birthday':datetime(year=1999, month=4, day=13)},
+    {'name':'April14', 'birthday':datetime(year=1999, month=4, day=14)},
+    {'name':'April15', 'birthday':datetime(year=1999, month=4, day=15)},
+    {'name':'April16', 'birthday':datetime(year=1999, month=4, day=16)},
+]
+get_birthdays_per_week(test_users)
